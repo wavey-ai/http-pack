@@ -1,5 +1,7 @@
 # http-pack
 
+[![CI](https://github.com/wavey-ai/http-pack/actions/workflows/ci.yml/badge.svg)](https://github.com/wavey-ai/http-pack/actions/workflows/ci.yml)
+
 Binary framing for HTTP requests/responses so they can be relayed as a stream-decodable payload.
 
 The format is designed to carry HTTP/1.1, H2, or H3 messages after TLS termination, then rebuild
